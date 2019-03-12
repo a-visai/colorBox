@@ -1,0 +1,73 @@
+.red {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  background-color: red;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.orange {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  background-color: orange;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.yellow {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  background-color: yellow;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.green {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  background-color: green;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.blue {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  background-color: blue;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.indigo {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  background-color: indigo;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.violet {
+  height: 300px;
+  width: 300px;
+  border: solid black;
+  background-color: violet;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.h1 {
+  padding-top: 50px
+}

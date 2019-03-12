@@ -1,25 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Square from './Square.js'
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      color: ['red','orange','yellow','green','blue','indigo','violet'],
+      counter: 0
+    }
+  }
+
+  handleClick = () => {
+    let {color, counter} = this.state
+    if (counter < color.length - 1) {
+      this.setState({counter: counter + 1})
+    } else {
+      this.setState({counter: 0})
+    }
+  }
+
   render() {
+    let {color, counter} = this.state
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Square
+        colorChanger = {this.handleClick}
+        itemColor = {color[counter]}
+        />
       </div>
     );
   }
