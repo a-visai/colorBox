@@ -5,7 +5,9 @@
   background-color: red;
   margin: auto;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 153px;
 }
 
 .orange {
@@ -15,7 +17,9 @@
   background-color: orange;
   margin: auto;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 153px;
 }
 
 .yellow {
@@ -25,7 +29,9 @@
   background-color: yellow;
   margin: auto;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 153px;
 }
 
 .green {
@@ -35,7 +41,9 @@
   background-color: green;
   margin: auto;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 153px;
 }
 
 .blue {
@@ -45,7 +53,9 @@
   background-color: blue;
   margin: auto;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 153px;
 }
 
 .indigo {
@@ -55,7 +65,9 @@
   background-color: indigo;
   margin: auto;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 153px;
 }
 
 .violet {
@@ -65,9 +77,15 @@
   background-color: violet;
   margin: auto;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 153px;
 }
 
-.h1 {
-  padding-top: 50px
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  flex: 1;
 }

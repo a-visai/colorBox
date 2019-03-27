@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Square from './Square.js'
 
 class App extends Component {
@@ -23,11 +22,13 @@ class App extends Component {
   render() {
     let {color, counter} = this.state
     return (
-      <div>
-        <Square
-        colorChanger = {this.handleClick}
-        itemColor = {color[counter]}
-        />
+      <div className='flex-grid'>
+        <div className='col'>
+          <Square
+          colorChanger = {this.handleClick}
+          itemColor = {color[counter]}
+          />
+        </div>
       </div>
     );
   }
